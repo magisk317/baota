@@ -1,5 +1,4 @@
-FROM pch18/baota:latest
-FROM python:3.11
+FROM cyberbolt/baota
 
 WORKDIR /app
 ENTRYPOINT ["python3","script.py"]
