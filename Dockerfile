@@ -1,5 +1,4 @@
-FROM cyberbolt/baota
-
+FROM pch18/baota
 WORKDIR /app
 ENTRYPOINT ["python3","script.py"]
-CMD ["-port","8888","-username","cyber","-password","abc12345"]
+CMD ["-port","8888","-username","wqk317","-password","abc12345"]
